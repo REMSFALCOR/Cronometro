@@ -1,0 +1,126 @@
+﻿<Window x:Class="Cronometro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cronometro"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="319" Width="453" Loaded="Window_Loaded" >
+    <Grid>
+        <Canvas Margin="0,0,0,0" Background="#01263a">
+            <TextBox x:Name="Hora" IsHitTestVisible="False" Height="145" Text="00" TextWrapping="Wrap" Width="119" FontSize="100" RenderTransformOrigin="-0.414,2.814" Canvas.Left="16" Canvas.Top="47">
+                <TextBox.Resources>
+                    <Style TargetType="TextBox">
+                        <Setter Property="TextBox.Background" Value="Transparent" />
+                        <Setter Property="TextBox.Foreground" Value="OrangeRed" />
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+            <TextBox x:Name="SepHorMin" IsHitTestVisible="False" Height="145" Text=":" TextWrapping="Wrap" Width="27" FontSize="100" RenderTransformOrigin="-0.414,2.814" Canvas.Left="135" Canvas.Top="47">
+                <TextBox.Resources>
+                    <Style TargetType="TextBox">
+                        <Setter Property="TextBox.Background" Value="Transparent" />
+                        <Setter Property="TextBox.Foreground" Value="OrangeRed" />
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+            <TextBox x:Name="Minutos" IsHitTestVisible="False" Height="145" Text="00" TextWrapping="Wrap" FontSize="100" RenderTransformOrigin="-0.414,2.814" Canvas.Left="162" Canvas.Top="47" Width="118">
+                <TextBox.Resources>
+                    <Style TargetType="TextBox">
+                        <Setter Property="TextBox.Background" Value="Transparent" />
+                        <Setter Property="TextBox.Foreground" Value="OrangeRed" />
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+            <TextBox x:Name="SepMinSeg" IsHitTestVisible="False" Height="145" Text=":" TextWrapping="Wrap" Width="27" FontSize="100" RenderTransformOrigin="-0.414,2.814" Canvas.Left="281" Canvas.Top="47">
+                <TextBox.Resources>
+                    <Style TargetType="TextBox">
+                        <Setter Property="TextBox.Background" Value="Transparent" />
+                        <Setter Property="TextBox.Foreground" Value="OrangeRed" />
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+            <TextBox x:Name="Segundos" IsHitTestVisible="False" Height="145" Text="00" TextWrapping="Wrap" Width="119" FontSize="100" RenderTransformOrigin="-0.414,2.814" Canvas.Left="307" Canvas.Top="47">
+                <TextBox.Resources>
+                    <Style TargetType="TextBox">
+                        <Setter Property="TextBox.Background" Value="Transparent" />
+                        <Setter Property="TextBox.Foreground" Value="OrangeRed" />
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+            <TextBox x:Name="Titulo" IsHitTestVisible="False" Height="37" Text="Cronometro" TextWrapping="Wrap" Width="173" FontSize="30" Canvas.Left="133" Canvas.Top="2">
+                <TextBox.Resources>
+                    <Style TargetType="TextBox">
+                        <Setter Property="TextBox.Background" Value="Transparent" />
+                        <Setter Property="TextBox.Foreground" Value="#4f94d4" />
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+            <TextBox x:Name="TextHora" IsHitTestVisible="False" Height="37" Text="Hora" TextWrapping="Wrap" Width="51" Canvas.Left="49" Canvas.Top="160" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <TextBox.Resources>
+                    <Style TargetType="TextBox">
+                        <Setter Property="TextBox.Background" Value="Transparent" />
+                        <Setter Property="TextBox.Foreground" Value="White" />
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                        <Setter Property="TextBox.FontSize" Value="20"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+            <TextBox x:Name="TextMinuto" IsHitTestVisible="False" Height="37" Text="Minutos" TextWrapping="Wrap" Width="84" FontSize="20" Canvas.Left="182" Canvas.Top="160" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <TextBox.Resources>
+                    <Style TargetType="TextBox">
+                        <Setter Property="TextBox.Background" Value="Transparent" />
+                        <Setter Property="TextBox.Foreground" Value="White" />
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+            <TextBox x:Name="TestSegundos" IsHitTestVisible="False" Height="37" Text="Segundos" TextWrapping="Wrap" Width="104" FontSize="20" Canvas.Right="10" Canvas.Top="160" HorizontalAlignment="Left" Canvas.Left="322" VerticalAlignment="Center">
+                <TextBox.Resources>
+                    <Style TargetType="TextBox">
+                        <Setter Property="TextBox.Background" Value="Transparent" />
+                        <Setter Property="TextBox.Foreground" Value="White" />
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+            <Button x:Name="Start" Content="Start"  FontSize="40" Click="Start_Click" Height="78" Canvas.Left="14" Canvas.Top="197" Width="121" >
+                <Button.Resources>
+                    <Style TargetType="Button">
+                        <Setter Property="Button.Background" Value="Transparent" />
+                        <Setter Property="Button.Foreground" Value="OrangeRed" />
+                        <Setter Property="Button.FontFamily" Value="Comic Sans MS" />
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="Pause" Content="Pause" FontSize="40" Click="Pause_Click" Height="78" Canvas.Left="162" Canvas.Top="197" Width="119">
+                <Button.Resources>
+                    <Style TargetType="Button">
+                        <Setter Property="Button.Background" Value="Transparent" />
+                        <Setter Property="Button.Foreground" Value="OrangeRed" />
+                        <Setter Property="Button.FontFamily" Value="Comic Sans MS" />
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button x:Name="Stop" Content="Stop" FontSize="40" Click="Stop_Click" Height="78" Canvas.Left="307" Canvas.Top="197" Width="119">
+                <Button.Resources>
+                    <Style TargetType="Button">
+                        <Setter Property="Button.Background" Value="Transparent" />
+                        <Setter Property="Button.Foreground" Value="OrangeRed" />
+                        <Setter Property="Button.FontFamily" Value="Comic Sans MS" />
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Border BorderBrush="Black" BorderThickness="1" Height="303" Width="453"/>
+        </Canvas>
+    </Grid>
+</Window>

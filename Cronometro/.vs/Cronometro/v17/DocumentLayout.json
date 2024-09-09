@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\REMS\\source\\repos\\Cronometro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D651E05D-2FAA-4D61-8EF4-B12912A963CF}|Cronometro\\Cronometro.csproj|c:\\users\\rems\\source\\repos\\cronometro\\cronometro\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D651E05D-2FAA-4D61-8EF4-B12912A963CF}|Cronometro\\Cronometro.csproj|solutionrelative:cronometro\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D651E05D-2FAA-4D61-8EF4-B12912A963CF}|Cronometro\\Cronometro.csproj|c:\\users\\rems\\source\\repos\\cronometro\\cronometro\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D651E05D-2FAA-4D61-8EF4-B12912A963CF}|Cronometro\\Cronometro.csproj|solutionrelative:cronometro\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D651E05D-2FAA-4D61-8EF4-B12912A963CF}|Cronometro\\Cronometro.csproj|c:\\users\\rems\\source\\repos\\cronometro\\cronometro\\tiempo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D651E05D-2FAA-4D61-8EF4-B12912A963CF}|Cronometro\\Cronometro.csproj|solutionrelative:cronometro\\tiempo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D651E05D-2FAA-4D61-8EF4-B12912A963CF}|Cronometro\\Cronometro.csproj|c:\\users\\rems\\source\\repos\\cronometro\\cronometro\\ihora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D651E05D-2FAA-4D61-8EF4-B12912A963CF}|Cronometro\\Cronometro.csproj|solutionrelative:cronometro\\ihora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D651E05D-2FAA-4D61-8EF4-B12912A963CF}|Cronometro\\Cronometro.csproj|c:\\users\\rems\\source\\repos\\cronometro\\cronometro\\iminuto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D651E05D-2FAA-4D61-8EF4-B12912A963CF}|Cronometro\\Cronometro.csproj|solutionrelative:cronometro\\iminuto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D651E05D-2FAA-4D61-8EF4-B12912A963CF}|Cronometro\\Cronometro.csproj|c:\\users\\rems\\source\\repos\\cronometro\\cronometro\\isegundo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D651E05D-2FAA-4D61-8EF4-B12912A963CF}|Cronometro\\Cronometro.csproj|solutionrelative:cronometro\\isegundo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\REMS\\Desktop\\fondo.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\REMS\\source\\repos\\Cronometro\\Cronometro\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Cronometro\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\REMS\\source\\repos\\Cronometro\\Cronometro\\MainWindow.xaml*",
+              "RelativeToolTip": "Cronometro\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-08T15:44:22.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\REMS\\source\\repos\\Cronometro\\Cronometro\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Cronometro\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\REMS\\source\\repos\\Cronometro\\Cronometro\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Cronometro\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvxsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:44:17.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tiempo.cs",
+              "DocumentMoniker": "C:\\Users\\REMS\\source\\repos\\Cronometro\\Cronometro\\Tiempo.cs",
+              "RelativeDocumentMoniker": "Cronometro\\Tiempo.cs",
+              "ToolTip": "C:\\Users\\REMS\\source\\repos\\Cronometro\\Cronometro\\Tiempo.cs",
+              "RelativeToolTip": "Cronometro\\Tiempo.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T16:06:00.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IHora.cs",
+              "DocumentMoniker": "C:\\Users\\REMS\\source\\repos\\Cronometro\\Cronometro\\IHora.cs",
+              "RelativeDocumentMoniker": "Cronometro\\IHora.cs",
+              "ToolTip": "C:\\Users\\REMS\\source\\repos\\Cronometro\\Cronometro\\IHora.cs",
+              "RelativeToolTip": "Cronometro\\IHora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T16:09:39.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISegundo.cs",
+              "DocumentMoniker": "C:\\Users\\REMS\\source\\repos\\Cronometro\\Cronometro\\ISegundo.cs",
+              "RelativeDocumentMoniker": "Cronometro\\ISegundo.cs",
+              "ToolTip": "C:\\Users\\REMS\\source\\repos\\Cronometro\\Cronometro\\ISegundo.cs",
+              "RelativeToolTip": "Cronometro\\ISegundo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T16:10:05.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMinuto.cs",
+              "DocumentMoniker": "C:\\Users\\REMS\\source\\repos\\Cronometro\\Cronometro\\IMinuto.cs",
+              "RelativeDocumentMoniker": "Cronometro\\IMinuto.cs",
+              "ToolTip": "C:\\Users\\REMS\\source\\repos\\Cronometro\\Cronometro\\IMinuto.cs",
+              "RelativeToolTip": "Cronometro\\IMinuto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T16:10:43.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fondo.jpg",
+              "DocumentMoniker": "C:\\Users\\REMS\\Desktop\\fondo.jpg",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\fondo.jpg",
+              "ToolTip": "C:\\Users\\REMS\\Desktop\\fondo.jpg",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\fondo.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-08T16:50:52.565Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
